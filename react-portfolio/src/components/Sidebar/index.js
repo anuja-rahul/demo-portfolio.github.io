@@ -5,7 +5,12 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {
+  faLinkedin,
+  faGithub,
+  faYoutube,
+  faFacebook,
+} from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className="nav-bar">
@@ -42,6 +47,29 @@ const Sidebar = () => (
           href="https://www.linkedin.com/in/anuja-rahul-gunasinghe-83b589266"
         >
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.github.com/anuja-rahul"
+        >
+          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer" href="https://youtube.com">
+          <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com"
+        >
+          <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
         </a>
       </li>
     </ul>
